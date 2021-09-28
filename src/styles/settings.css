@@ -1,0 +1,23 @@
+.form-stg {
+  display: flex;
+  flex-flow: column;
+  justify-content: left;
+  margin: auto;
+  width: 550px;
+}
+
+.category-input, .difficulty-input, .type-input {
+  margin: 7px auto;
+  width: 275px;
+}
+
+label, input {
+  margin: auto;
+  width: 280px;
+}
+
+a {
+  height: 25px;
+  margin: 10px auto;
+  width: 100px;
+}

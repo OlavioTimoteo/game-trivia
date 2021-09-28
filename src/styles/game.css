@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-game {
+  display: flex;
+  height: 300px;
+  margin: 55px auto;
+  max-width: 700px;
+  min-width: 500px;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: center;
+}
+
+header p {
+  align-self: center;
+}
+
+.player {
+  display: flex;
+}
+
+.points {
+  display: flex;
+  height: 35px;
+}
+
+.question {
+  border: 1px solid black;
+  max-height: 250px;
+  min-height: 200px;
+  width: 300px;
+}
+
+.tt-qt {
+  background-color: grey;
+  margin: 10px auto;
+  width: 290px;
+}
+
+.quest {
+  margin: auto;
+  text-align: left;
+  width: 280px;
+}
+
+.alternatives {
+  display: flex;
+  flex-flow: column;
+  height: 250px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.alternatives button {
+  max-height: 120px;
+  max-width: 230px;
+  min-height: 30px;
+  min-width: 80px;
+}
+
+header img {
+  width: 35px;
+}
+
+.timer {
+  color: red;
+}
+
+.wrong {
+  border: 3px solid red;
+}
+
+.correct {
+  border: 3px solid rgb(6, 240, 15);
+}

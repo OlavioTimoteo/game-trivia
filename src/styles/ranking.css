@@ -1,0 +1,26 @@
+.img-rank {
+  width: 19px;
+}
+
+.usr-rank {
+  align-items: flex-start;
+  background-color: grey;
+  display: flex;
+  height: 20px;
+  margin: 5px auto;
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.usr-rank span, .usr-rank img {
+  vertical-align: middle;
+}
+
+.btn-rank {
+  height: 25px;
+  margin: 10px auto;
+  width: 100px;
+}
